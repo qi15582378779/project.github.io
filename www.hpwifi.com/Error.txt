@@ -1,0 +1,10 @@
+﻿文件下载网址  =>  文件保存路径
+http://www.hpwifi.com/images/ys_001.png  =>  D:\张玉琪的学习资料\www.hpwifi.com\images\ys_001.png
+http://www.hpwifi.com/images/cheliang.gif  =>  D:\张玉琪的学习资料\www.hpwifi.com\images\cheliang.gif
+http://www.hpwifi.com/images/fangchan.gif  =>  D:\张玉琪的学习资料\www.hpwifi.com\images\fangchan.gif
+http://www.hpwifi.com/images/qiuzhi.gif  =>  D:\张玉琪的学习资料\www.hpwifi.com\images\qiuzhi.gif
+http://www.hpwifi.com/images/zhaoshang.gif  =>  D:\张玉琪的学习资料\www.hpwifi.com\images\zhaoshang.gif
+http://www.hpwifi.com/images/jiankang.gif  =>  D:\张玉琪的学习资料\www.hpwifi.com\images\jiankang.gif
+http://www.hpwifi.com/images/xiuxian.gif  =>  D:\张玉琪的学习资料\www.hpwifi.com\images\xiuxian.gif
+http://www.hpwifi.com/images/meirong.gif  =>  D:\张玉琪的学习资料\www.hpwifi.com\images\meirong.gif
+http://www.hpwifi.com/images/shuma.gif  =>  D:\张玉琪的学习资料\www.hpwifi.com\images\shuma.gif

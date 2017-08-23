@@ -1,0 +1,390 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>周边云 - 中国最大的智慧城市服务商</title>
+		<meta name="keywords" content="周边云,城市门户APP,智慧商家,LBS广告,商用Wi-Fi,移动电商,招商加盟,微信支付,手机支付0费率" />
+		<meta name="description" content="把店铺开在顾客手机上的城市门户APP,手机支付0费率,我们的使命:让所有的客户用手机作生意" />
+		<link href="css/zby_style_5.css" rel="stylesheet" type="text/css" />
+		<script src="js/jquery.js"></script>
+		<script src="js/index.js"></script>
+		<script src="js/mh.js"></script>
+	</head>
+	<style>
+		.hover{background:#3199f4; color:#fff;}
+		.left_blue{background:#3199f4; color:#fff; border-radius:30px 0 0 30px;}
+		.right_blue{background:#3199f4; color:#fff; border-radius:0px 30px 30px 0px;}
+	</style>
+	<script>
+		/*xuanxiangka*/
+		function setTab(name,cursel,n){
+			for(i=1;i<=n;i++){
+				var menu=document.getElementById(name+i);
+				var con=document.getElementById("con_"+name+"_"+i);
+				if(cursel==1 && i==1){
+					menu.className="left_blue";
+				}else if (cursel == 5 && i==5) {
+					menu.className="right_blue";
+				} else{
+					menu.className=i==cursel?"hover":"";
+				}
+				
+				con.style.display=i==cursel?"block":"none";
+			}
+		}
+		$(function(){
+			 $("#radio").click(function () {
+                if ($(this).attr("checked")) {
+                	$("#radio3").attr("checked","checked");
+                	$("#div1").show();
+                	$("#div2").hide();
+                }
+            });
+            $("#radio2").click(function () {          
+                if ($(this).attr("checked")) {
+                	$("#radio4").attr("checked","checked");
+                	$("#div2").show();
+                	$("#div1").hide();
+                }
+            });
+            $("#radio3").click(function () {
+                if ($(this).attr("checked")) {
+                	$("#radio").attr("checked","checked");
+                	$("#div1").show();
+                	$("#div2").hide();
+                }
+            });
+            $("#radio4").click(function () {          
+                if ($(this).attr("checked")) {
+                	$("#radio2").attr("checked","checked");
+                	$("#div2").show();
+                	$("#div1").hide();
+                }
+            }); 
+         });
+	</script>
+
+	<body style="background:#fff;" style="position:relative;">
+
+		<div class="zby_header">
+			<div class="zby_nav" id="title">
+				<span><a href="index.html"><img src="picture/logo.png"  width="137" height="42" alt="logo"/></a></span>
+				<ul>
+					<li><a href="index.html">首页</a>
+					</li>
+					<li><a href="city-mh.html">城市门户</a>
+						<ul>
+							<li><a href="sy-wifi.html">商用Wi-Fi</a>
+							</li>
+							<li><a href="lbs-ad.html">LBS广告</a>
+							</li>
+							<li><a href="ydds.html">移动电商</a>
+							</li>
+						</ul>
+					</li>
+					<li><a href="srdz-hlj.html" style="color:#fff;">App工厂</a>
+					</li>
+					<li><a href="mdl-gw.html" >买单啦</a>
+					</li>
+					<li><a href="qdzs.html">渠道招商</a>
+					</li>
+					<li><a href="about-us.html">关于我们</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="srdz_banner">
+			<span><img src="picture/banner1.png" width="1000" height="327" usemap="#Map" border="0" />
+				<map name="Map" id="Map">
+				  <area shape="rect" coords="199,179,401,253" href="#position" />
+				</map>
+			</span>
+
+			<p></p>
+		</div>
+		<div class="o2osmfw">
+			<h3>什么是O2O上门服务</h3>
+			<p>周边云O2O是一款基于LBS提供上门服务的手机应用系统，是一款能够帮助企业及个人快速构建O2O（线上到线下）服务体系的系统 提供包含家政、美容美甲、代驾、清洗、物流、维修等所有直流服务场景对接、流量转化与变现、技术服务 、创业扶持 等全链路解决方案 全方位助力创业团队的快速成长及商业变现。</p>
+		</div>
+		<div class="o2oig"></div>
+		<div class="o2osm">
+			<h3>O2O上门服务全平台解决方案</h3>
+			<p>打造用户体验的闭环，从下订单开始。</p>
+			<span><img src="picture/bg1.png" width="1000" height="268" />
+
+</span>
+			<div class="httitle">
+				<img src="picture/arrow.png" width="73" height="48" />
+			</div>
+
+		</div>
+		<div class="hzfxjl">
+			<div class="hzfxjl_1">合作方向举例</div>
+			<div class="hzfxjl_2">
+				<div class="hzfxjl_2top">
+					<ul>
+						<li style="border:0;" id="one1" onclick="setTab('one',1,5)" class="left_blue">河狸家</li>
+						<li id="one2" onclick="setTab('one',2,5)">美丽多</li>
+						<li id="one3" onclick="setTab('one',3,5)">58到家</li>
+						<li id="one4" onclick="setTab('one',4,5)">小马管家</li>
+						<li id="one5" onclick="setTab('one',5,5)">美容总监</li>
+					</ul>
+				</div>
+				<div class="hzfxjl_2bottom1" id="con_one_1">
+					<div class="hzfxjl_2bottom">
+						<div class="hzfxjl_2bottoma">
+							<h3>河狸家</h3>
+							<p>河狸家作为一个“手艺人上门服务”的 O2O 平台，从美甲服务切入，让时尚女性足不出户即可享受一对一的美甲服务，其服务延展的思路大致是：女人相关；美丽相关；中高价位的、有较高技术含量的服务业。 </p>
+						</div>
+					</div>
+				</div>
+
+				<div class="hzfxjl_2bottom2" id="con_one_2" style="display:none">
+					<div class="hzfxjl_2bottom">
+						<div class="hzfxjl_2bottoma">
+							<h3>美丽多</h3>
+							<p>美丽多是面向时尚女性上门美甲O2O应用，在美丽多的移动端APP上，消费者可以在线预约美甲师、在线挑选美甲款式。除提供上门美甲服务外，还提供上门美睫和手部护理。 </p>
+						</div>
+					</div>
+				</div>
+
+				<div class="hzfxjl_2bottom3" id="con_one_3" style="display:none">
+					<div class="hzfxjl_2bottom">
+						<div class="hzfxjl_2bottoma">
+							<h3>58到家</h3>
+							<p>58到家是58同城投资打造的互联网生活服务品牌,为用户提供专业、便捷、安心的标准化到家服务,主要包括到家保洁、上门美甲、搬家速运三大项服务。 </p>
+						</div>
+					</div>
+				</div>
+
+				<div class="hzfxjl_2bottom4" id="con_one_4" style="display:none">
+					<div class="hzfxjl_2bottom">
+						<div class="hzfxjl_2bottoma">
+							<h3>小马管家</h3>
+							<p>小马管家是一款基于地理位置为用户提供管家服务的应用，其将传统家政服务拓展到了轻管家概念，即服务有但不限于保洁，还涵盖家电养护、除螨、家具保养、做饭、宠物照看、车辆送检等系列服务，为用户提供更优质便捷的生活服务。 </p>
+						</div>
+					</div>
+				</div>
+
+				<div class="hzfxjl_2bottom5" id="con_one_5" style="display:none">
+					<div class="hzfxjl_2bottom">
+						<div class="hzfxjl_2bottoma">
+							<h3>美容总监</h3>
+							<p>“美容总监”是一个为时尚女性提供便捷、实惠、专业高端的上门美容的O2O服务平台，只要用户在线下单约好时间，专业的美容师就可以在约定好的时间内达到指定地点，让用户能够随时体验到高端美容服务。 </p>
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+		<div class="jbgx">
+			<h3>他们已经具备高效服务能力，你呢？</h3>
+			<span><img src="picture/corporate.png" width="998" height="70" /></span>
+		</div>
+		<div class="sq_tab_tc65">
+			<div class="qdzs_tab65">
+				<div class="qdzs_tab1">
+					<a name="position"><img src="picture/hm020.png" width="365" height="39" alt="申请成为城市门户O2O平台运营商" /> </a></div>
+				<div class="qdzs_tab2-65" id="div1">
+					<form id="add_form" method="post">
+						<table width="100%" cellspacing="0" cellpadding="0">
+							<tr>
+								<td width="8%" height="41" class="l_right">合作类型：</td>
+								<td width="38%">
+									<input name="radio" type="radio" id="radio" value="radio" checked="checked" />
+									<label for="radio"></label>
+									我是渠道，想代理App工厂平台</td>
+								<td colspan="2" style="padding-left:20px;">
+									<input type="radio" name="radio" id="radio2" value="radio" /> 我是客户，想购买020上门服务App产品
+								</td>
+							</tr>
+							<tr>
+								<td width="8%" height="41" class="l_right">企业名称：</td>
+								<td width="38%">
+									<input type="tel" id="company" name="company" class="inp_w1">
+								</td>
+								<td width="9%" class="l_right">联系电话：</td>
+								<td width="45%">
+									<input type="tel" id="mobile" name="mobile" class="inp_w1" />
+								*								</td>
+							</tr>
+							<tr>
+								<td height="47" class="l_right">联系人：</td>
+								<td>
+									<input type="tel" id="username" name="username" class="inp_w1" /> *
+								</td>
+								<td class="l_right">常用邮箱：</td>
+								<td>
+									<input type="tel" id="email" name="email" class="inp_w1" /></td>
+							</tr>
+							<tr>
+								<td height="43" class="l_right">所在地区：</td>
+								<td>
+									<table width="100%" cellspacing="0" cellpadding="0">
+										<tr>
+											<td width="32%">
+												<select id="provinceId" name="provinceId" class="cs_w">
+													<option value="0">省份</option>
+												</select>
+											</td>
+											<td width="32%">
+												<select id="cityId" name="cityId" class="cs_w">
+													<option value="0">市</option>
+												</select>
+											</td>
+											<td width="36%">
+												<select id="areaId" name="profitId" class="cs_w">
+													<option value="0">区域</option>
+												</select>
+											</td>
+										</tr>
+									</table>
+								</td>
+								<td>&nbsp;</td>
+								<td>&nbsp;</td>
+							</tr>
+							<tr>
+								<td height="44" valign="top" class="l_right">备注：</td>
+								<td colspan="3">
+									<label for="textarea">
+										<textarea name="" cols="" rows="" class="inp_w65"></textarea>
+									</label>
+								</td>
+							</tr>
+							<tr>
+								<td height="92" class="l_right">&nbsp;</td>
+								<td colspan="3">
+									<table width="100%" cellspacing="0" cellpadding="0">
+										<tr>
+											<td width="43%">&nbsp;</td>
+											<td width="57%">
+												<div class="cgd-btna">
+													<a href="javascript:saveApply();">提交申请</a>
+												</div>
+											</td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+						</table>
+					</form>
+
+				</div>
+				<div class="qdzs_tab2-65" id="div2" style="display:none;">
+					<form id="add_form2" method="post">
+						<table width="100%" cellspacing="0" cellpadding="0">
+							<tr>
+								<td width="11%" height="41" class="l_right">合作类型：</td>
+								<td width="39%">
+									<input name="radio" type="radio" id="radio3" value="radio" />
+									<label for="radio"></label>
+									我是渠道，想代理App工厂平台</td>
+								<td colspan="2" style="padding-left:20px;">
+									<input name="radio" type="radio" id="radio4" value="radio" /> 我是客户，想购买020上门服务App产品
+								</td>
+							</tr>
+							<tr>
+								<td height="47" class="l_right">联系人：</td>
+								<td>
+									<input type="tel" id="username2" name="username" class="inp_w1" /> * </td>
+								<td width="11%" class="l_right">联系电话：</td>
+								<td width="39%"><input type="tel" id="mobile2" name="mobile2" class="inp_w1" />
+							    * </td>
+							</tr>
+							<tr>
+								<td height="43" class="l_right">所在地区：</td>
+								<td>
+									<table width="100%" cellspacing="0" cellpadding="0">
+										<tr>
+											<td width="32%">
+												<select id="provinceId2" name="provinceId" class="cs_w">
+													<option value="0">省份</option>
+												</select>
+											</td>
+											<td width="32%">
+												<select id="cityId2" name="cityId" class="cs_w">
+													<option value="0">市</option>
+												</select>
+											</td>
+											<td width="36%">
+												<select id="areaId2" name="profitId" class="cs_w">
+													<option value="0">区域</option>
+												</select>
+											</td>
+										</tr>
+									</table>
+								</td>
+								<td class="l_right">常用邮箱：</td>
+								<td>
+									<input type="tel" id="email3" name="email2" class="inp_w1" /></td>
+							</tr>
+							<tr>
+								<td height="44" valign="top" class="l_right">备注：</td>
+								<td colspan="3">
+									<label for="textarea">
+										<textarea name="" cols="" rows="" class="inp_w65"></textarea>
+									</label>
+								</td>
+							</tr>
+							<tr>
+								<td height="92" class="l_right">&nbsp;</td>
+								<td colspan="3">
+									<table width="100%" cellspacing="0" cellpadding="0">
+										<tr>
+											<td width="43%">&nbsp;</td>
+											<td width="57%">
+												<div class="cgd-btna">
+													<a href="javascript:saveApplyForm();">提交申请</a>
+												</div>
+											</td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+						</table>
+					</form>
+
+				</div>
+			</div>
+		</div>
+		<div class="zby_copy">
+			<div class="zby_copya">
+				<div class="zby_copyleft">
+					<img src="picture/bottom_logo.png" width="152" height="49" alt="" /> </div>
+				<div class="zby_copyright">
+					<ul>
+						<li><a href="index.html">周边云首页 </a>
+						</li>
+						<li><a href="qdzs.html">渠道代理   </a>
+						</li>
+						<li><a href="qycs.html">已签约城市   </a>
+						</li>
+						<li><a href="about-us.html">关于周边云   </a>
+						</li>
+						<li><a href="ptrk.html">平台登录 </a>
+						</li>
+						<li><a href="city-xz.html">城市APP下载</a>
+						</li>
+					</ul>
+					<p>联系我们：4008-707-585 （北京总部）
+						<br /> 地址：北京海淀区学清路8号科技财富中心B座10层
+					</p>
+					<font>Copyright © 2015 北京和瑞创想科技有限公司保留所有权利。京ICP备13031423号</font>
+
+				</div>
+			</div>
+		</div>
+	<script>
+	var _hmt = _hmt || [];
+	(function() {
+	  var hm = document.createElement("script");
+	  hm.src = "//hm.baidu.com/hm.js?fabb4719e0914cb328fee76874faed38";
+	  var s = document.getElementsByTagName("script")[0]; 
+	  s.parentNode.insertBefore(hm, s);
+	})();
+	</script>
+	</body>
+
+</html>
